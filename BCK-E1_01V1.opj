@@ -34,7 +34,7 @@
     (DRC_Action "0")
     (DRC_Create_Warnings "FALSE")
     (DRC_View_Output "FALSE")
-    (DRC_Preserved_Waived "FALSE")
+    (DRC_Preserved_Waived "TRUE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "TRUE")
     (DRC_Report_File "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DRC")
@@ -104,15 +104,45 @@
       (Sort User))
     (Folder "Simulation Profiles"))
   (PartMRUSelector
+    (CONN8
+      (FullPartName "CONN8.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR
+      (FullPartName "RESISTOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTNO-R
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-R
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (STM32F446ZET6
+      (FullPartName "STM32F446ZET6.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    (BOT_2
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\TITLE.OLB")
+      (DeviceIndex "0"))
     (TOP
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\TITLE.OLB")
       (DeviceIndex "0"))
     (R_0.125W
       (FullPartName "R_0.125W.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (RESISTOR
-      (FullPartName "RESISTOR.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (MOS_n_channel_induced_1
@@ -162,21 +192,6 @@
       (DeviceIndex "0"))
     (0
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (VSIN
-      (FullPartName "VSIN.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -186,29 +201,46 @@
       (Path "Design Resources"
          "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn" "TOP LEVEL")
       (Path "Design Resources"
-         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn" "Design Cache")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "d:\project\circuit\orcad\lib\title.olb")
+         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn" "DEF")
       (Path "Outputs")
       (Select "Design Resources"
-         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn"))
+         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn" "TOP LEVEL" "MAIN"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 289 0 901"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 359 1756 86 578")
-        (Scroll "148 320")
-        (Zoom "112")
+        (Placement "44 0 1 -1 -1 -4 -24 132 1434 138 630")
+        (Scroll "421 163")
+        (Zoom "122")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
       (Schematic "TOP LEVEL")
-      (Page "MAIN")))
+      (Page "MAIN"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -24 66 1463 69 561")
+        (Scroll "288 1067")
+        (Zoom "464")
+        (Occurrence "/MCU1"))
+      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
+      (Schematic "MCU")
+      (Page "MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -24 154 1551 161 653")
+        (Scroll "-271 50")
+        (Zoom "100")
+        (Occurrence "/CPLD1"))
+      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
+      (Schematic "CPLD")
+      (Page "CPLD")))
   (MPSSessionName "Shcheblykin")
   (LastUsedLibraryBrowseDirectory "D:\Project\Circuit\OrCAD\lib")
   (ISPCBBASICLICENSE "false"))
