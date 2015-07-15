@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (ProjectType "PCB - PSpice")
+  (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
       (File "d:\project\circuit\orcad\lib\my_title.olb"
@@ -17,7 +17,7 @@
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (ANNOTATE_Scope "0")
-    (ANNOTATE_Mode "1")
+    (ANNOTATE_Mode "0")
     (ANNOTATE_Action "1")
     (Annotate_Page_Order "0")
     (ANNOTATE_Reset_References_to_1 "FALSE")
@@ -25,7 +25,7 @@
     (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}{PACKAGE}")
     (ANNOTATE_IncludeNonPrimitive "TRUE")
     (ANNOTATE_PreserveDesignator "FALSE")
-    (ANNOTATE_PreserveUserEdits "TRUE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
     (ANNOTATE_Refdes_Control_Required "FALSE")
     (Update_Instace_for_External_Design "FALSE")
     (Annotate_type "Default")
@@ -40,8 +40,8 @@
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "TRUE")
     (DRC_Report_File "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DRC")
-    (DRC_Check_Ports "FALSE")
-    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
     (DRC_SDT_Compatibility "FALSE")
     (DRC_Report_Off-grid_Objects "FALSE")
@@ -101,15 +101,11 @@
       (Type "Report")
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
-  (Folder "PSpice Resources"
-    (Folder "Model Libraries"
-      (Sort User))
-    (Folder "Stimulus Files"
-      (Sort User))
-    (Folder "Include Files"
-      (Sort User))
-    (Folder "Simulation Profiles"))
   (PartMRUSelector
+    (82V2084PF
+      (FullPartName "82V2084PFA.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
     (EPM1270T144C4N
       (FullPartName "EPM1270T144C4N.Normal")
       (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
@@ -179,10 +175,6 @@
       (FullPartName "T1094NL.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (82V2084PF
-      (FullPartName "82V2084PFB.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
-      (DeviceIndex "1"))
     (CONN8
       (FullPartName "CONN8.Normal")
       (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
@@ -208,49 +200,20 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn")
+         "D:\Project\Circuit\BCK\BCK-E1\01v1\bck-e1_01v1.dsn")
       (Path "Design Resources"
-         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn" "TOP LEVEL")
+         "D:\Project\Circuit\BCK\BCK-E1\01v1\bck-e1_01v1.dsn" "TOP LEVEL")
       (Path "Design Resources"
-         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn" "CPLD")
-      (Path "Design Resources"
-         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn" "E1")
-      (Path "Design Resources"
-         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn" "MCU")
-      (Path "Design Resources"
-         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn" "Design Cache")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.olb")
+         "D:\Project\Circuit\BCK\BCK-E1\01v1\bck-e1_01v1.dsn" "CPLD")
       (Path "Outputs")
       (Select "Design Resources"
-         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn"))
+         "D:\Project\Circuit\BCK\BCK-E1\01v1\bck-e1_01v1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 313 0 901"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
       (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 132 1434 138 630")
-        (Scroll "-157 0")
-        (Zoom "58")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
-      (Schematic "TOP LEVEL")
-      (Page "MAIN"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 66 1320 69 561")
-        (Scroll "-133 0")
-        (Zoom "116")
-        (Occurrence "/MCU1"))
-      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
-      (Schematic "MCU")
-      (Page "MCU"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
@@ -264,23 +227,33 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 0 1334 0 462")
-        (Scroll "-190 178")
-        (Zoom "112")
-        (Occurrence "/CPLD1"))
+        (Placement "44 0 1 -1 -1 -4 -24 220 1613 230 718")
+        (Scroll "321 0")
+        (Zoom "116")
+        (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
-      (Schematic "CPLD")
-      (Page "CPLD"))
+      (Schematic "TOP LEVEL")
+      (Page "MAIN"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 176 1510 184 646")
-        (Scroll "-304 55")
-        (Zoom "112")
+        (Placement "44 0 1 -1 -1 -4 -24 132 1529 138 630")
+        (Scroll "-271 30")
+        (Zoom "100")
         (Occurrence "/E1"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
       (Schematic "E1")
-      (Page "E1")))
+      (Page "E1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -24 198 1595 207 699")
+        (Scroll "-271 80")
+        (Zoom "100")
+        (Occurrence "/CPLD1"))
+      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
+      (Schematic "CPLD")
+      (Page "CPLD")))
   (MPSSessionName "Shcheblykin")
   (LastUsedLibraryBrowseDirectory "D:\Project\Circuit\OrCAD\lib")
   (ISPCBBASICLICENSE "false"))
