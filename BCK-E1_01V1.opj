@@ -224,7 +224,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -24 220 1613 230 718")
-        (Scroll "0 300")
+        (Scroll "287 53")
         (Zoom "116")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
@@ -233,13 +233,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 110 1542 115 607")
-        (Scroll "-288 0")
+        (Placement "44 2 3 -1 -1 -4 -24 154 1586 161 653")
+        (Scroll "-402 0")
         (Zoom "100")
-        (Occurrence "/CPLD1"))
+        (Occurrence "/MCU1"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
-      (Schematic "CPLD")
-      (Page "CPLD")))
+      (Schematic "MCU")
+      (Page "MCU")))
   (MPSSessionName "Shcheblykin")
   (LastUsedLibraryBrowseDirectory "D:\Project\Circuit\OrCAD\lib")
   (ISPCBBASICLICENSE "false"))
