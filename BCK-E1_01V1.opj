@@ -102,6 +102,10 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CONN10
+      (FullPartName "CONN10.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (TJ8P8C_SHIELD
       (FullPartName "TJ8P8C_SHIELD.Normal")
       (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
@@ -145,10 +149,6 @@
     (RN4
       (FullPartName "RN4.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CONN10
-      (FullPartName "CONN10.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
       (DeviceIndex "0"))
     (CAPACITOR
       (FullPartName "CAPACITOR.Normal")
@@ -223,8 +223,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -24 220 1613 230 718")
-        (Scroll "321 220")
-        (Zoom "116")
+        (Scroll "-203 0")
+        (Zoom "58")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
       (Schematic "TOP LEVEL")
@@ -238,7 +238,7 @@
         (Occurrence "/DEF1"))
       (Frame
         (Placement "44 0 1 -1 -1 -4 -24 88 1485 92 584")
-        (Scroll "56 614")
+        (Scroll "56 634")
         (Zoom "200")
         (Occurrence "/DEF2"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
@@ -248,8 +248,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -24 44 1441 46 538")
-        (Scroll "-271 0")
-        (Zoom "100")
+        (Scroll "1711 184")
+        (Zoom "400")
         (Occurrence "/MCU1"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
       (Schematic "MCU")
@@ -258,8 +258,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -24 66 1463 69 561")
-        (Scroll "-271 0")
-        (Zoom "100")
+        (Scroll "56 628")
+        (Zoom "200")
         (Occurrence "/CPLD1"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
       (Schematic "CPLD")
@@ -267,7 +267,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 110 1507 115 607")
+        (Placement "44 0 1 -1 -1 -4 -24 110 1507 115 607")
         (Scroll "56 176")
         (Zoom "200")
         (Occurrence "/E1"))
