@@ -209,6 +209,10 @@
       (Path "Design Resources"
          "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn" "DEF")
       (Path "Design Resources"
+         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn" "E1")
+      (Path "Design Resources"
+         "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn" "MCU")
+      (Path "Design Resources"
          "d:\project\circuit\bck\bck-e1\01v1\bck-e1_01v1.dsn" "Design Cache")
       (Path "Outputs")
       (Select "Design Resources"
@@ -232,33 +236,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 220 1617 230 722")
-        (Scroll "-271 147")
-        (Zoom "100")
-        (Occurrence "/DEF1"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 88 1485 92 584")
-        (Scroll "56 634")
-        (Zoom "200")
-        (Occurrence "/DEF2"))
-      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
-      (Schematic "DEF")
-      (Page "DEF"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 44 1441 46 538")
-        (Scroll "-271 30")
-        (Zoom "100")
-        (Occurrence "/MCU1"))
-      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
-      (Schematic "MCU")
-      (Page "MCU"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 66 1463 69 561")
-        (Scroll "79 184")
+        (Placement "44 0 1 -1 -1 -4 -24 66 1463 69 561")
+        (Scroll "322 119")
         (Zoom "232")
         (Occurrence "/CPLD1"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
@@ -267,23 +246,13 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 110 1507 115 607")
-        (Scroll "56 176")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -4 -24 22 1419 23 515")
+        (Scroll "-271 122")
+        (Zoom "100")
         (Occurrence "/E1"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
       (Schematic "E1")
-      (Page "E1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 44 1441 46 538")
-        (Scroll "-271 30")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
-      (Schematic "TOP LEVEL")
-      (Page "PWR")))
+      (Page "E1")))
   (MPSSessionName "Shcheblykin")
   (LastUsedLibraryBrowseDirectory "D:\Project\Circuit\OrCAD\lib")
   (ISPCBBASICLICENSE "false"))
