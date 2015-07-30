@@ -87,7 +87,8 @@
     ("Layout Reuse: Action" "1")
     ("True Reuse Property combine string" "{Value}{Source Package}")
     ("Layout Reuse: Property_Combine_String" "{Value}{Source Package}")
-    ("True Reuse Action" "1"))
+    ("True Reuse Action" "1")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Outputs"
     (File ".\bck-e1_01v1.drc"
       (Type "Report"))
@@ -102,6 +103,10 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (PORTNO-L
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -113,10 +118,6 @@
       (DeviceIndex "0"))
     (PORTLEFT-R
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (CAPACITOR
-      (FullPartName "CAPACITOR.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (R_0.125W
       (FullPartName "R_0.125W.Normal")
@@ -248,9 +249,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 220 1617 230 722")
-        (Scroll "0 258")
-        (Zoom "200")
+        (Placement "44 2 3 -1 -1 -4 -24 220 1617 230 722")
+        (Scroll "1364 1308")
+        (Zoom "400")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
       (Schematic "TOP LEVEL")
@@ -273,9 +274,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 198 1595 207 699")
-        (Scroll "322 876")
-        (Zoom "232")
+        (Placement "44 0 1 -1 -1 -4 -24 198 1595 207 699")
+        (Scroll "-205 263")
+        (Zoom "116")
         (Occurrence "/CPLD1"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
       (Schematic "CPLD")
