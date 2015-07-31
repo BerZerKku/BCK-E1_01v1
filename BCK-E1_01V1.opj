@@ -103,6 +103,18 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (AMLDL-Z
+      (FullPartName "AMLDL-Z.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SRDA05
+      (FullPartName "SRDA05.Normal")
+      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (CAPACITOR
       (FullPartName "CAPACITOR.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
@@ -130,10 +142,6 @@
     (TJ8P8C_SHIELD
       (FullPartName "TJ8P8C_SHIELD.Normal")
       (LibraryName "X:\LIB\SYMBOLS\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (SRDA05
-      (FullPartName "SRDA05.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
     (SN74HCT573
       (FullPartName "SN74HCT573.Normal")
@@ -167,10 +175,6 @@
       (FullPartName "RN4.Normal")
       (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0"))
-    (INDUCTOR
-      (FullPartName "INDUCTOR.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
-      (DeviceIndex "0"))
     (LM1117
       (FullPartName "LM1117.Normal")
       (LibraryName "X:\LIB\SYMBOLS\IC.OLB")
@@ -193,10 +197,6 @@
       (DeviceIndex "0"))
     (GND
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (EFUSE
-      (FullPartName "EFUSE.Normal")
-      (LibraryName "X:\LIB\SYMBOLS\DISCRETE.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -207,21 +207,21 @@
          "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\bck-e1_01v1.dsn" "TOP LEVEL")
       (Path "Design Resources"
          "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\bck-e1_01v1.dsn" "DEF")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\bck-e1_01v1.dsn"))
+      (Path "Design Resources"
+         "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\bck-e1_01v1.dsn" "Design Cache")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 390 0 901"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -24 220 1613 230 718")
-        (Scroll "-203 0")
-        (Zoom "58")
+        (Scroll "321 32")
+        (Zoom "116")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
       (Schematic "TOP LEVEL")
@@ -230,8 +230,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -24 22 1419 23 515")
-        (Scroll "-271 10")
-        (Zoom "100")
+        (Scroll "196 1488")
+        (Zoom "200")
         (Occurrence "/E1"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
       (Schematic "E1")
@@ -239,19 +239,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 66 1463 69 561")
-        (Scroll "56 1168")
-        (Zoom "200")
-        (Occurrence "/MCU1"))
-      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
-      (Schematic "MCU")
-      (Page "MCU"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 220 1617 230 722")
-        (Scroll "1364 1308")
-        (Zoom "400")
+        (Placement "44 0 1 -1 -1 -4 -24 220 1617 230 722")
+        (Scroll "0 1587")
+        (Zoom "232")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
       (Schematic "TOP LEVEL")
@@ -275,7 +265,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -24 198 1595 207 699")
-        (Scroll "-205 263")
+        (Scroll "-205 179")
         (Zoom "116")
         (Occurrence "/CPLD1"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
