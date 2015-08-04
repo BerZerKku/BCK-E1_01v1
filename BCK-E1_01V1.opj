@@ -227,9 +227,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 44 1441 46 538")
-        (Scroll "2240 1122")
-        (Zoom "232")
+        (Placement "44 0 1 -1 -1 -4 -24 0 1375 0 529")
+        (Scroll "-144 0")
+        (Zoom "64")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
       (Schematic "TOP LEVEL")
@@ -237,24 +237,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 88 1485 92 584")
-        (Scroll "-319 191")
-        (Zoom "116")
-        (Occurrence "/DEF1"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 154 1551 161 653")
-        (Scroll "-271 90")
-        (Zoom "100")
-        (Occurrence "/DEF2"))
-      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
-      (Schematic "DEF")
-      (Page "DEF"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 110 1507 115 607")
-        (Scroll "-205 655")
-        (Zoom "116")
+        (Placement "44 0 1 -1 -1 -4 -24 66 1441 69 598")
+        (Scroll "0 1466")
+        (Zoom "200")
         (Occurrence "/MCU1"))
       (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V1\BCK-E1_01V1.DSN")
       (Schematic "MCU")
