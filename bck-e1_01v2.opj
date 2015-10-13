@@ -1,0 +1,99 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\bck-e1_01v2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "pcb")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\BCK-E1_01V2.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "64")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    (NoModify))
+  (Folder "Outputs"
+    (File ".\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\bck-e1_01v2.dsn")
+      (Path "Design Resources" ".\bck-e1_01v2.dsn" "TOP LEVEL")
+      (Path "Design Resources" ".\bck-e1_01v2.dsn" "CPLD")
+      (Path "Design Resources" ".\bck-e1_01v2.dsn" "DEF")
+      (Path "Design Resources" ".\bck-e1_01v2.dsn" "E1")
+      (Path "Design Resources" ".\bck-e1_01v2.dsn" "MCU")
+      (Path "Outputs")
+      (Select "Design Resources" ".\bck-e1_01v2.dsn" "TOP LEVEL" "MAIN"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 893"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -28 66 1763 81 580")
+        (Scroll "-355 0")
+        (Zoom "58")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V2\BCK-E1_01V2.DSN")
+      (Schematic "TOP LEVEL")
+      (Page "MAIN"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -28 44 1528 54 553")
+        (Scroll "-314 0")
+        (Zoom "100")
+        (Occurrence "/DEF2"))
+      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V2\BCK-E1_01V2.DSN")
+      (Schematic "DEF")
+      (Page "DEF"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -28 66 1550 81 580")
+        (Scroll "322 1819")
+        (Zoom "232")
+        (Occurrence "/E1"))
+      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V2\BCK-E1_01V2.DSN")
+      (Schematic "E1")
+      (Page "E1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -28 88 1572 108 607")
+        (Scroll "-558 -8")
+        (Zoom "58")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\CIRCUIT\BCK\BCK-E1\01V2\BCK-E1_01V2.DSN")
+      (Schematic "TOP LEVEL")
+      (Page "PWR")))
+  (MPSSessionName "Shcheblykin"))
